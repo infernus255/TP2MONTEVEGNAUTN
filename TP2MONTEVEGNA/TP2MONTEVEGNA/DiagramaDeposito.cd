@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TP2MONTEVEGNA.Cliente" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ListaDeCobros" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Compartimiento" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAADAAQQAAAAAAAAAACAAAAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>Compartimiento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Medida1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Deposito" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAABAQAAAAAAAACAAAAAAAAhAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deposito.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Medida1" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ListaClientes" />
+      <Field Name="ListaPasillos" />
+      <Field Name="ListaPrecios" />
+      <Field Name="ListaGastos" />
+      <Field Name="ListaEmpleados" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Empleado" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEA=</HashCode>
+      <FileName>Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Factura" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Medida" Collapsed="true">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Medida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Pasillo" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Pasillo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Medida1" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ListaDeCompartimientos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Persona" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAEAAAAgAIAAgAAAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP2MONTEVEGNA.Precio" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
